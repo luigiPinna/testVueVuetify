@@ -1,7 +1,7 @@
 <template>
   <v-parallax
       dark
-      src="@/assets/caraibi.jpg"
+      src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg"
   >
     <v-row
         align="center"
@@ -12,10 +12,10 @@
           cols="12"
       >
         <h1 class="text-h4 font-weight-thin mb-4">
-          Vuetify
+          TRAVEL
         </h1>
         <h4 class="subheading">
-          Build your application today!
+          Have stories to tell not stuff to show!
         </h4>
       </v-col>
     </v-row>

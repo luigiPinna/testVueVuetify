@@ -5,9 +5,10 @@
 
       <mid-carousel/>
 
-      <carousel-main/>
-
       <travel-card-basic/>
+
+      <carousel-main/>
+      <MainFooter/>
 
     </v-container>
   </v-app>
@@ -19,11 +20,13 @@
   import CarouselMain from "@/components/CarouselMain";
   import MidCarousel from "@/components/MidCarousel";
   import TravelCardBasic from "@/components/TravelCardBasic";
+  import MainFooter from "@/components/MainFooter";
 
   export default {
     name: 'Home',
 
     components: {
+      MainFooter,
       TravelCardBasic,
       MidCarousel,
       CarouselMain,

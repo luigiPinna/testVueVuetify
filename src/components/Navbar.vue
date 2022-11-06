@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app light flat class="px-8">
+  <v-app-bar app flat class="px-8">
     <v-btn icon>
       <v-icon color="#54aedb">fa-thin fa-sailboat</v-icon>
     </v-btn>
@@ -19,5 +19,7 @@ export default {
 </script>
 
 <style scoped>
-
+.light{
+  background: None;
+}
 </style>
