@@ -3,11 +3,9 @@
     <navbar/>
     <v-container fluid>
 
-      <mid-carousel/>
-
+      <carousel-main/>
       <travel-card-basic/>
 
-      <carousel-main/>
       <MainFooter/>
 
     </v-container>

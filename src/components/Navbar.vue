@@ -1,5 +1,9 @@
 <template>
-  <v-app-bar app flat class="px-8">
+  <v-app-bar flat class="px-8"
+             color="white"
+             elevate-on-scroll
+             scroll-target="#scrolling-techniques-7">
+    <v-app-bar-nav-icon></v-app-bar-nav-icon>
     <v-btn icon>
       <v-icon color="#54aedb">fa-thin fa-sailboat</v-icon>
     </v-btn>
@@ -11,6 +15,7 @@
     <v-btn text @click="scroll('contact')"> contact</v-btn>
   </v-app-bar>
 </template>
+
 
 <script>
 export default {

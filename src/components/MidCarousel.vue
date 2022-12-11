@@ -1,7 +1,8 @@
 <template>
   <v-parallax
-      dark
-      src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg"
+
+      fluid
+      src="https://thumbs.dreamstime.com/b/happy-travel-woman-vacation-concept-funny-traveler-enjoy-her-trip-ready-to-adventure-happy-travel-woman-vacation-concept-118679424.jpg"
   >
     <v-row
         align="center"
@@ -15,11 +16,13 @@
           TRAVEL
         </h1>
         <h4 class="subheading">
-          Have stories to tell not stuff to show!
+          Discover Your Life, Travel Where You Want!
         </h4>
+
       </v-col>
     </v-row>
-  </v-parallax>
+  </v-parallax
+      >
 </template>
 
 <script>
